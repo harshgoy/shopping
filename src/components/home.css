@@ -1,0 +1,24 @@
+.product-container{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 8rem;
+}
+
+.shopping-cart-home{
+    position: fixed;
+    bottom: 3rem;
+    right: 4rem;
+    height: 4rem;
+    width: 4rem;
+    border: none;
+    background: black;
+    border-radius: 43px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.shopping-cart-home span{
+    font-size: 2rem;
+    color: white;
+}

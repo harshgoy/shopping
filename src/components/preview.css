@@ -1,0 +1,44 @@
+.preview-container{
+    height: 91vh;
+    width: 100vw;
+    display: flex;
+}
+
+.preview-listing , .preview-img-container{
+    height: 100%;
+    width: 50%;
+    
+
+}
+.preview-img-container img{
+    object-fit: contain;
+    height: 100%;
+    width: 100%;
+}
+
+.preview-listing h2{
+    margin-top: 4rem;
+    text-align: center;
+}
+
+.preview-listing p{
+padding: 20px;
+text-align: justify;
+}
+
+.preview-listing button{
+    display: block;
+    margin: auto;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    color: black;
+    background:#f39c12;
+    font-size: 1.2rem;
+}
+.goto-cart{
+position: fixed;
+bottom: 12rem;
+right: 17.3rem;
+}
